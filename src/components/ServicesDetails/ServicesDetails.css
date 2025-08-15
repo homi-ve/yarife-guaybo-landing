@@ -7,12 +7,12 @@
   justify-content: center;
 }
 .service-card {
-  background: var(--blanco);
+  background: var(--white);
   border-radius: 15px;
   padding: 2rem;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
-  border: 2px solid transparent;
+  border: 2px solid var(--primary);
   position: relative;
   width: 350px;
   display: flex;
@@ -27,18 +27,21 @@
 
 .service-card:hover {
   transform: translateY(-5px);
-  border-color: var(--lila);
+  border-color: var(--primary);
   
 }
 
 .service-card h3 {
-  color: var(--morado-acento);
+  color: var(--primary);
   margin: 1.8rem 1rem 1rem 1rem;
-  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
   text-align: center;
+  font-weight: 700;
 }
 .service-card h3 span{
-  font-size: clamp(1.1rem, 2.8vw, 1.3rem);
+  font-size: clamp(1rem, 2.8vw, 1.2rem);
+  font-weight: 600;
+  color: var(--primary);
 }
 
 .service-card .icon {
@@ -47,12 +50,16 @@
   left: 50%;
   top: 0;
   transform: translate(-50%,-50%);
+  /* background-color: var(--accent); */
+  width: 20%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
 }
 
 .service-card .price {
-  color: var(--rojo);
+  color: var(--accent);
   font-weight: bold;
-  font-size: clamp(0.9rem, 2.2vw, 1rem);
+  font-size: clamp(0.9rem, 2.2vw, .9rem);
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -72,8 +79,8 @@
 .service-card .bullets li { list-style: disc; }
 
 .service-cta {
-  background: var(--morado);
-  color: var(--blanco);
+  /* background: var(--primary); */
+  color: var(--white);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 10px;
@@ -87,13 +94,21 @@
   margin-top: auto;
 }
 
+.services-swiper .swiper-slide:nth-child(odd) .service-cta {
+  background: var(--primary);
+}
+
+.services-swiper .swiper-slide:nth-child(even) .service-cta {
+  background: var(--accent);
+}
+
 .service-card:hover .service-cta {
-  background: var(--rojo);
+  background: var(--accent);
 }
 
 /* Estilos del carrusel */
 .services-swiper {
-  padding: 60px 10px 80px 10px; /* Más espacio arriba y abajo para los cards */
+  padding: 70px 10px 80px 10px; /* Más espacio arriba y abajo para los cards */
 }
 
 .services-swiper .swiper-slide {
@@ -103,7 +118,7 @@
 
 .services-swiper .swiper-button-next,
 .services-swiper .swiper-button-prev {
-  color: var(--morado);
+  color: var(--primary);
   background: rgba(255, 255, 255, 0.9);
   width: 50px;
   height: 50px;
@@ -118,13 +133,13 @@
 }
 
 .services-swiper .swiper-pagination-bullet {
-  background: var(--morado);
+  background: var(--primary);
   opacity: 0.3;
 }
 
 .services-swiper .swiper-pagination-bullet-active {
   opacity: 1;
-  background: var(--morado);
+  background: var(--primary);
 }
 
 /* Asegurar que las cards mantengan su altura */
@@ -189,10 +204,10 @@
 @media (max-width: 576px) {
   .service-card {
     padding: 1rem;
-    border: 2px solid var(--morado);
+    border: 2px solid var(--primary);
   }
   .service-card:hover {
-    border: 2px solid var(--morado);
+    border: 2px solid var(--primary);
   }
   .container {
     padding: 0 10px;

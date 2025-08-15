@@ -30,9 +30,12 @@ const Hero = () => {
             Transforma tu conocimiento en una marca profesional que educa, conecta y vende.
           </p>
           
+          <div className='cta-container'>
           <button onClick={openWhatsApp} className="cta-button">
-            RESERVA TU ASESORÍA
+            QUIERO UNA ASESORÍA
           </button>
+          <span className='cta-comment'>Cupos limitados cada mes</span>
+          </div>
         </div>
       </div>
       {/* Lado derecho - Naranja */}

@@ -1,21 +1,15 @@
 /* Variables CSS globales */
 :root {
   /* Design tokens */
-  --primary: #6A0DAD;        /* morado principal */
+  --primary: #6a0dad;        /* morado principal */
+  --primary-light: #6e27e1;        /* morado principal */
   --accent: #F2AD00;         /* amarillo CTA */
+  --red: #DF230A;         /* amarillo CTA */
   --lavender: #D6A3FB;       /* lila claro */
   --black: #000000;
   --white: #FFFFFF;
-
-  /* Compatibilidad con variables usadas */
-  --morado: #6e27e1;         /* hero solicitado */
-  --morado-acento: #6a0dad;  /* acento texto */
-  --rojo: var(--accent);
-  --lila: var(--lavender);
-  --negro: var(--black);
-  --blanco: var(--white);
-  --gris-claro: #f8f9fa;
-  --gris-medio: #6c757d;
+  --gray-light: #f8f9fa;
+  --gray-medium: #6c757d;
 }
 
 /* Reset básico */
@@ -29,8 +23,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
-  color: var(--negro);
-  background-color: var(--blanco);
+  color: var(--black);
+  background-color: var(--white);
 }
 
 /* Smooth scrolling */

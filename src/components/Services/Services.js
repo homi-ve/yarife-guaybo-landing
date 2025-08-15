@@ -19,7 +19,7 @@ const Services = () => {
         {/* Cinta superior inclinada + pill y banner "SERVICIOS" */}
         <div className="services-banner">
           <div className="top-ribbon">
-            <span>ACTIVA <b className="accent">EL POWER</b> DE TUS PROYECTOS</span>
+            <span>ACTIVA EL POWER DE TUS PROYECTOS</span>
           </div>
           <div className="under-ribbon">
             <span className="with-pill">CON MIS</span>
@@ -34,7 +34,7 @@ const Services = () => {
               <img src={iconHand} alt="Branding icon" className="icon" />
             </div>
             <div className="service-item--content soft">
-            <p><strong>Crea una marca con <span className="accent">identidad</span> y <span className="accent">propósito</span></strong></p>
+            <p><strong>Crea una marca con identidad y propósito</strong></p>
             </div>
             </div>
             <div className='service-item service-item--3'>
@@ -43,8 +43,8 @@ const Services = () => {
               <img src={iconPerson} alt="Comunicar icon" className="icon " />
             </div>
             <div className="service-item--content soft">
-            <p><strong>Estrategia de contenido <span className="accent">visual</span> y <span className="accent">educativo</span></strong></p>
-            <p><strong>Crear piezas coherentes y <span className="accent">estratégicas</span></strong></p>    
+            <p><strong>Estrategia de contenido visual y educativo</strong></p>
+            <p><strong>Crear piezas coherentes y estratégicas</strong></p>    
             </div>
             </div>
             
@@ -68,8 +68,8 @@ const Services = () => {
               <img src={iconBulb} alt="Claridad icon" className="icon" />
             </div>
             <div className="service-item--content soft">
-              <p><strong>Asesorías creativas para <span className="accent">desbloquear</span> tu idea</strong></p>
-              <p><strong>Convertir ideas en <span className="accent">planes de acción</span> y MVP</strong></p>
+              <p><strong>Asesorías creativas paradesbloquear tu idea</strong></p>
+              <p><strong>Convertir ideas enplanes de acción y MVP</strong></p>
             </div>
             </div>
             <div className='service-item service-item--4'>
@@ -78,8 +78,8 @@ const Services = () => {
               <img src={iconBriefcase} alt="Vender icon" className="icon " />
             </div>
             <div className="service-item--content soft">
-            <p><strong>Diseño de recursos digitales (<span className="accent">ebooks</span>, <span className="accent">guías</span>)</strong></p>
-            <p><strong>Productos listos para <span className="accent">vender</span> y <span className="accent">escalar</span></strong></p>
+            <p><strong>Diseño de recursos digitales (ebooks, guías)</strong></p>
+            <p><strong>Productos listos para vender y escalar</strong></p>
             </div>
             </div>
           </div>

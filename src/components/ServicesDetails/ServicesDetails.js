@@ -4,14 +4,19 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import icon1 from '../../assets/images/Iconos/Recurso 40.png';
+import icon4 from '../../assets/images/Iconos/Recurso 41.png';
+import icon5 from '../../assets/images/Iconos/Recurso 43.png';
+import icon3 from '../../assets/images/Iconos/Recurso 44.png';
+import icon2 from '../../assets/images/Iconos/Recurso 50.png';
 import './ServicesDetails.css';
-
 
 const ServicesDetails = () => {
   const services = [
     {
       id: 1,
       icon: '🧠',
+      resource: icon1,
       title: 'IDEAR',
       subtitle: 'Asesorías creativas',
       price: '$99 plan mensual (4 sesiones) / $30 sesión individual',
@@ -26,6 +31,8 @@ const ServicesDetails = () => {
     {
       id: 2,
       icon: '🎨',
+      resource: icon2,
+
       title: 'BRANDEAR',
       subtitle: 'Identidad visual profesional',
       price: 'Desde $229',
@@ -39,6 +46,7 @@ const ServicesDetails = () => {
     {
       id: 3,
       icon: '📣',
+      resource: icon3,
       title: 'COMUNICAR',
       subtitle: 'Estrategia y piezas de contenido',
       price: 'Desde $80',
@@ -52,6 +60,7 @@ const ServicesDetails = () => {
     {
       id: 4,
       icon: '📦',
+      resource: icon4,
       title: 'VENDER',
       subtitle: 'Productos digitales',
       price: 'Desde $28 por recurso',
@@ -65,6 +74,7 @@ const ServicesDetails = () => {
     {
       id: 5,
       icon: '🚀',
+      resource: icon5,
       title: 'APRENDER Y CRECER',
       subtitle: 'Talleres, cursos, freebies',
       price: 'Talleres desde $7 · Freebies $0 · Cursos desde $10',
@@ -115,7 +125,9 @@ const ServicesDetails = () => {
           {services.map((service) => (
             <SwiperSlide key={service.id}>
               <div className="service-card">
-                <span className='icon'>{service.icon}</span>
+                <span className='icon'>
+                  <img src={service.resource}/>
+                </span>
                 <h3> 
                   {service.title} <br/>
                   <span>{service.subtitle}</span>

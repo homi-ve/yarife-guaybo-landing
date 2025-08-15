@@ -8,7 +8,7 @@
 .decorator .circle {
   width: 75%;
   aspect-ratio: 1/1;
-  background: var(--lila);
+  background: var(--lavender);
   border-radius: 50%;
   position: absolute;
   z-index: -1;
@@ -32,9 +32,9 @@
 
 
 .contact-headline {
-  color: var(--morado-acento);
+  color: var(--primary);
   font-weight: 800;
-  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-size: clamp(2.5rem, 8vw, 4rem);
   line-height: 1.05;
   letter-spacing: -0.5px;
   margin-bottom: 8px;
@@ -42,12 +42,12 @@
 }
 
 .tag {
-  background: var(--accent);
-  color: var(--morado);
+  background: var(--red);
+  color: var(--white);
   padding: 20px 36px;
   border-radius: 18px;
   font-weight: 600;
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-size: clamp(1rem, 2vw, 1.3rem);
   letter-spacing: 2px;
   text-transform: uppercase;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
@@ -77,7 +77,7 @@
 }
 
 .contact p:first-child{
-  color: var(--morado);
+  color: var(--primary);
   font-weight: 600;
 }
 

@@ -1,5 +1,5 @@
 .faq-section {
-  background: var(--morado);
+  background: var(--primary);
   padding: 80px 0;
   position: relative;
   overflow: hidden;
@@ -30,7 +30,7 @@
 }
 
 .faq-title-banner {
-  background: var(--morado-acento);
+  background: var(--primary-light);
   padding: 12px 24px;
   border-radius: 8px;
   transform: rotate(-2deg);
@@ -43,11 +43,15 @@
 }
 
 .faq-title-main {
-  color: var(--blanco);
+  color: var(--white);
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.faq-title-main--dark {
+  color: var(--white);
 }
 
 .faq-brand {
@@ -61,7 +65,7 @@
 .faq-speech-bubble {
   width: 60px;
   height: 40px;
-  background: var(--blanco);
+  background: var(--white);
   border-radius: 20px;
   position: relative;
   display: flex;
@@ -78,7 +82,7 @@
   height: 0;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
-  border-top: 8px solid var(--blanco);
+  border-top: 8px solid var(--white);
 }
 
 .faq-dots {
@@ -89,7 +93,7 @@
 .faq-dots span {
   width: 6px;
   height: 6px;
-  background: var(--morado);
+  background: var(--primary);
   border-radius: 50%;
 }
 
@@ -120,7 +124,7 @@
   top: 50%;
   left: 0;
   font-size: 120px;
-  color: var(--blanco);
+  color: var(--white);
   opacity: 0.3;
   font-family: serif;
   font-weight: bold;
@@ -133,7 +137,7 @@
   left: 50%;
   transform: translateX(-50%);
   font-size: 60px;
-  color: var(--blanco);
+  color: var(--white);
   opacity: 0.4;
 }
 
@@ -238,7 +242,7 @@
   width: 70px;
   height: 70px;
   transform: rotate(35deg);
-  fill: var(--morado-acento)
+  fill: var(--primary)
 }
 
 /* Contenido de preguntas y respuestas */
@@ -254,7 +258,9 @@
 }
 
 .faq-question {
-  background: var(--morado-acento);
+  background: transparent;
+  backdrop-filter: blur(20px);
+  border: 1.5px solid var(--lavender);
   padding: 20px 30px;
   border-radius: 50px;
   display: flex;
@@ -271,7 +277,7 @@
 }
 
 .faq-question-text {
-  color: var(--blanco);
+  color: var(--white);
   font-size: clamp(.8rem, 2.5vw, 1.2rem);
   font-weight: 600;
   flex: 1;
@@ -279,7 +285,7 @@
 }
 
 .faq-toggle {
-  color: var(--blanco);
+  color: var(--white);
   font-size: 24px;
   font-weight: bold;
   width: 30px;
@@ -310,10 +316,10 @@
 }
 
 .faq-answer {
-  background: var(--blanco);
+  background: var(--white);
   padding: 25px 30px;
   border-radius: 20px;
-  color: var(--negro);
+  color: var(--black);
   font-size: clamp(0.8rem, 2vw, 1rem);
   line-height: 1.6;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -346,8 +352,8 @@
   right: 100px;
   width: 40px;
   height: 40px;
-  background: var(--morado-acento);
-  border: 3px solid var(--blanco);
+  background: var(--primary);
+  border: 3px solid var(--white);
   border-radius: 8px;
   opacity: 0.6;
   transform: rotate(15deg);

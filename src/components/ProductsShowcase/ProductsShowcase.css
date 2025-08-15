@@ -18,7 +18,7 @@
 }
 
 .guaybo-title {
-  color: var(--morado);
+  color: var(--primary);
   font-size: clamp(1.8rem, 6vw, 3rem);;
   font-weight: 900;
   margin: 0 0 20px;
@@ -26,7 +26,7 @@
 }
 
 .guaybo-sub {
-  color: var(--morado);
+  color: var(--primary);
   font-size: clamp(0.9rem, 2.5vw, 1.1rem);
   line-height: 1.6;
   margin: 0 0 50px;
@@ -46,7 +46,7 @@
 }
 
 .purple-text {
-  color: var(--morado);
+  color: var(--primary);
   font-weight: 700;
 }
 
@@ -164,7 +164,7 @@
 }
 
 .card-features h4 {
-  color: var(--morado);
+  color: var(--primary);
   font-size: 0.95rem;
   font-weight: 700;
   margin: 0 0 8px;
@@ -191,8 +191,8 @@
 }
 
 .cta {
-  background: var(--accent);
-  color: var(--black);
+  background: var(--red);
+  color: var(--white);
   border: none;
   padding: 10px 20px;
   border-radius: 8px;
@@ -209,7 +209,7 @@
 
 .price {
   font-weight: 900;
-  color: var(--morado);
+  color: var(--primary);
   font-size: 1.2rem;
 }
 

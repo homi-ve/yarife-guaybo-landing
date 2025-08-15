@@ -103,7 +103,7 @@ const Testimonials = () => {
             {testimonials.taller.map((testimonial, index) => (
               <div key={testimonial.id} className={`t-card t-card--taller-${index + 1}`}>
                 <div className="t-card-head">
-                  <img src={testimonial.avatar} alt={testimonial.name} className="t-avatar" />
+                  {/* <img src={testimonial.avatar} alt={testimonial.name} className="t-avatar" /> */}
                   <div className="t-info">
                     <h4 className="t-name">{testimonial.name}</h4>
                     <p className="t-sub">{testimonial.subtitle}</p>
@@ -120,7 +120,7 @@ const Testimonials = () => {
             {testimonials.branding.map((testimonial, index) => (
               <div key={testimonial.id} className={`t-card t-card--branding-${index + 1}`}>
                 <div className="t-card-head">
-                  <img src={testimonial.avatar} alt={testimonial.name} className="t-avatar" />
+                  {/* <img src={testimonial.avatar} alt={testimonial.name} className="t-avatar" /> */}
                   <div className="t-info">
                     <h4 className="t-name">{testimonial.name}</h4>
                     <p className="t-sub">{testimonial.subtitle}</p>
@@ -137,7 +137,7 @@ const Testimonials = () => {
             {testimonials.asesorias.map((testimonial, index) => (
               <div key={testimonial.id} className={`t-card t-card--asesorias-${index + 1}`}>
                 <div className="t-card-head">
-                  <img src={testimonial.avatar} alt={testimonial.name} className="t-avatar" />
+                  {/* <img src={testimonial.avatar} alt={testimonial.name} className="t-avatar" /> */}
                   <div className="t-info">
                     <h4 className="t-name">{testimonial.name}</h4>
                     <p className="t-sub">{testimonial.subtitle}</p>

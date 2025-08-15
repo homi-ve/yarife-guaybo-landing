@@ -38,10 +38,10 @@ const Contact = () => {
   return (
     <section id="contacto" className="section contact-section ">
       <div className='container'>
-        <h2 className='contact-headline'>Contáctame</h2>
+        <h2 className='contact-headline'>Tu marca puede crecer con POWER. ¿Listo para empezar?</h2>
         <div className='contact-container'>
           <div className='contact-container__left'>
-            <div className='tag'>Quiero hablar con Yarife
+            <div className='tag'>Quiero más información sobre la asesoría
                 <img src={arrow} alt="Flecha" />
               </div>
             <div className='contacts'>

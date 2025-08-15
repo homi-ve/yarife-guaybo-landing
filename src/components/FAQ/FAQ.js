@@ -48,7 +48,7 @@ const FAQ = () => {
         <div className="faq-header">
           <div className="faq-title-container">
             <div className="faq-title-banner">
-              <span className="faq-title-main">PREGUNTAS</span>
+              <span className="faq-title-main faq-title-main--dark">PREGUNTAS</span>
             </div>
             <div className="faq-title-banner faq-title-banner--yellow">
               <span className="faq-title-main">FRECUENTES</span>
