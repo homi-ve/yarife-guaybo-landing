@@ -44,7 +44,7 @@ const Footer = () => {
             </a>
           ))}
         </div>
-        <p>&copy; 2024 Yarife Vallenilla. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Yarife Vallenilla. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
