@@ -68,7 +68,7 @@ const Services = () => {
               <img src={iconBulb} alt="Claridad icon" className="icon" />
             </div>
             <div className="service-item--content soft">
-              <p><strong>Asesorías creativas paradesbloquear tu idea</strong></p>
+              <p><strong>Asesorías creativas para desbloquear tu idea</strong></p>
               <p><strong>Convertir ideas enplanes de acción y MVP</strong></p>
             </div>
             </div>
