@@ -21,7 +21,11 @@ const About = () => {
           <img className="about-person" src={personAbout} alt="Yarife Vallenilla" />
 
         </div>
-
+        <div className='tip-container tip-container--sm'>
+            Te ayudaré a crear una marca y todos tus infoproductos
+            <span>Empieza hoy a posicionarte y monetizar tu expertise.</span>
+            <img src={quotationMarks}/>
+        </div>
         {/* Columna derecha */}
         <div className="about-right">
           <p className="quote">
@@ -35,7 +39,7 @@ const About = () => {
             Desde hace 4 años ayudo a profesionales y marcas a transformar su conocimiento en proyectos digitales
             que <span >educan</span>, <span >conectan</span> y <span >venden</span> con propósito.
           </p>
-          <div className='tip-container'>
+          <div className='tip-container tip-container--md'>
               Te ayudaré a crear una marca y todos tus infoproductos
               <span>Empieza hoy a posicionarte y monetizar tu expertise.</span>
               <img src={quotationMarks}/>

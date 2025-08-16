@@ -117,6 +117,10 @@
   font-size: clamp(1rem, 1.2vw, 1.2rem);
 }
 
+.tip-container--sm {
+  display: none;
+}
+
 .tip-container span {
   background-color: var(--primary);
   padding: 10px 25px;
@@ -161,19 +165,28 @@
     transform: translate(-10%,-100%) rotate(25deg);
     top: 0;
   }
+  .about-grid {  gap:0}
+  .tip-container--sm {
+    display: block;
+    margin: -10px 0 70px 0;
+    z-index: 2;
+  }
+  .tip-container--md {
+    display: none;
+  }
     
 }
 
 @media (max-width: 768px) {
   .about-person { height: 400px; margin-top: 0; }
-
+ 
   
 }
 
 @media (max-width: 576px) {
-  
+
   .about-person { height: 400px; margin-top: 0; }
-  .about-grid { padding: 0 20px; margin: 60px 0;}
+  .about-grid { padding: 0 20px; margin: 60px 0; }
   .bg-bulb,.bg-briefcase {
     width: 70px;
   }
