@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/yarife-guaybo-landing/static/css/main.bca81acf.css",
+    "main.css": "/yarife-guaybo-landing/static/css/main.f75b07b8.css",
     "main.js": "/yarife-guaybo-landing/static/js/main.541845cf.js",
     "static/media/3.webp": "/yarife-guaybo-landing/static/media/3.3cb9d5d492177374ccb9.webp",
     "static/media/2.webp": "/yarife-guaybo-landing/static/media/2.f4adbe5f794f83c69b39.webp",
@@ -15,11 +15,11 @@
     "static/media/Recurso 50.png": "/yarife-guaybo-landing/static/media/Recurso 50.2931a4673e8a64c561f7.png",
     "static/media/Recurso 72.png": "/yarife-guaybo-landing/static/media/Recurso 72.28ef0062ad2850125321.png",
     "index.html": "/yarife-guaybo-landing/index.html",
-    "main.bca81acf.css.map": "/yarife-guaybo-landing/static/css/main.bca81acf.css.map",
+    "main.f75b07b8.css.map": "/yarife-guaybo-landing/static/css/main.f75b07b8.css.map",
     "main.541845cf.js.map": "/yarife-guaybo-landing/static/js/main.541845cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.bca81acf.css",
+    "static/css/main.f75b07b8.css",
     "static/js/main.541845cf.js"
   ]
 }
