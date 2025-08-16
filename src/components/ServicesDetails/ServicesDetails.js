@@ -4,11 +4,11 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import icon1 from '../../assets/images/Iconos/Recurso 40.png';
-import icon4 from '../../assets/images/Iconos/Recurso 41.png';
-import icon5 from '../../assets/images/Iconos/Recurso 43.png';
-import icon3 from '../../assets/images/Iconos/Recurso 44.png';
-import icon2 from '../../assets/images/Iconos/Recurso 50.png';
+import icon1 from '../../assets/images/icons/Recurso 40.png';
+import icon4 from '../../assets/images/icons/Recurso 41.png';
+import icon5 from '../../assets/images/icons/Recurso 43.png';
+import icon3 from '../../assets/images/icons/Recurso 44.png';
+import icon2 from '../../assets/images/icons/Recurso 50.png';
 import './ServicesDetails.css';
 
 const ServicesDetails = () => {

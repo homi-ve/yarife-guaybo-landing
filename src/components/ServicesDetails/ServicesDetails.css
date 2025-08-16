@@ -163,7 +163,7 @@
 /* Responsive para el carrusel */
 @media (max-width: 768px) {
   .services-swiper {
-    padding: 40px 8px 60px 8px; /* Espacio reducido pero suficiente en móviles */
+    padding: 70px 8px 60px 8px; /* Espacio reducido pero suficiente en móviles */
   }
   
   .services-swiper .swiper-button-next,

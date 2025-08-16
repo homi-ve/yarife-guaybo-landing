@@ -1,13 +1,13 @@
 import React from 'react';
-import centerCharacter from '../../assets/images/Iconos/image (1).png';
-import iconBulb from '../../assets/images/Iconos/Recurso 40.png';
-import iconBriefcase from '../../assets/images/Iconos/Recurso 41.png';
-import iconHand from '../../assets/images/Iconos/Recurso 42.png';
-import iconPerson from '../../assets/images/Iconos/Recurso 43.png';
-import arrow45 from '../../assets/images/Iconos/Recurso 45.png';
-import arrow46 from '../../assets/images/Iconos/Recurso 46.png';
-import arrow47 from '../../assets/images/Iconos/Recurso 47.png';
-import arrow48 from '../../assets/images/Iconos/Recurso 48.png';
+import centerCharacter from '../../assets/images/icons/person.png';
+import iconBulb from '../../assets/images/icons/Recurso 40.png';
+import iconBriefcase from '../../assets/images/icons/Recurso 41.png';
+import iconHand from '../../assets/images/icons/Recurso 42.png';
+import iconPerson from '../../assets/images/icons/Recurso 43.png';
+import arrow45 from '../../assets/images/icons/Recurso 45.png';
+import arrow46 from '../../assets/images/icons/Recurso 46.png';
+import arrow47 from '../../assets/images/icons/Recurso 47.png';
+import arrow48 from '../../assets/images/icons/Recurso 48.png';
 import './Services.css';
 
 

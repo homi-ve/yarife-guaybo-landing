@@ -1,11 +1,11 @@
 import React from 'react';
 import './Testimonials.css';
 
-import decor1 from '../../assets/images/Iconos/Recurso 40.png';
-import decor2 from '../../assets/images/Iconos/Recurso 42.png';
-import decor3 from '../../assets/images/Iconos/Recurso 50.png';
+import decor1 from '../../assets/images/icons/Recurso 40.png';
+import decor2 from '../../assets/images/icons/Recurso 42.png';
+import decor3 from '../../assets/images/icons/Recurso 50.png';
 
-import logoRecurso36 from '../../assets/images/Logos/Recurso 36.png';
+import logoRecurso36 from '../../assets/images/logos/isotype.png';
 
 const Testimonials = () => {
   const testimonials = {

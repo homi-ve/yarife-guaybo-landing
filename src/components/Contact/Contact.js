@@ -1,49 +1,27 @@
 import React from 'react';
-import yarifeImage from '../../assets/images/Fotos comprimidas Yarife/Tercera-foto.webp';
-import arrow from '../../assets/images/Iconos/Recurso 46.png';
+import arrow from '../../assets/images/icons/Recurso 46.png';
+import yarifeImage from '../../assets/images/yarife/3.webp';
 import './Contact.css';
 
 const Contact = () => {
-  // const contactInfo = [
-  //   {
-  //     id: 1,
-  //     icon: 'fab fa-whatsapp',
-  //     title: 'WhatsApp',
-  //     link: 'https://wa.me/584242429016',
-  //     text: '+58 424 2429016'
-  //   },
-  //   {
-  //     id: 2,
-  //     icon: 'fas fa-envelope',
-  //     title: 'Email',
-  //     link: 'mailto:yarifepower@gmail.com',
-  //     text: 'yarifepower@gmail.com'
-  //   },
-  //   {
-  //     id: 3,
-  //     icon: 'fab fa-instagram',
-  //     title: 'Instagram',
-  //     link: 'https://instagram.com/yarifepower',
-  //     text: '@yarifepower'
-  //   },
-  //   {
-  //     id: 4,
-  //     icon: 'fab fa-linkedin',
-  //     title: 'LinkedIn',
-  //     link: '#',
-  //     text: 'Yarife Vallenilla'
-  //   }
-  // ];
+
+  const openWhatsApp = () => {
+    const phone = '584242429016';
+    const text = encodeURIComponent('Hola Yarife, quiero reservar una asesoría.');
+    window.open(`https://wa.me/${phone}?text=${text}`, '_blank');
+  };
 
   return (
     <section id="contacto" className="section contact-section ">
       <div className='container'>
-        <h2 className='contact-headline'>Tu marca puede crecer con POWER. ¿Listo para empezar?</h2>
+        <h2 className='contact-headline'>Tu marca puede crecer<br/> con POWER.</h2>
+        <h3 className='contact-headline-tag'>¿Listo para empezar?</h3>
         <div className='contact-container'>
           <div className='contact-container__left'>
-            <div className='tag'>Quiero más información sobre la asesoría
+            <div className='tag-container'>
+                <button onClick={openWhatsApp} className='tag'>Quiero más información</button>
                 <img src={arrow} alt="Flecha" />
-              </div>
+            </div>
             <div className='contacts'>
               <div className='contact'>
                   <p>Correo</p>

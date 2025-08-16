@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './ProductsShowcase.css';
 
-import decor1 from '../../assets/images/Iconos/Recurso 67.png';
-import decor2 from '../../assets/images/Iconos/Recurso 68.png';
-import ebookImage from '../../assets/images/Logos/ebook_yarife.webp';
+import decor1 from '../../assets/images/icons/Recurso 67.png';
+import decor2 from '../../assets/images/icons/Recurso 68.png';
+import ebookImage from '../../assets/images/logos/ebook_yarife.webp';
 
 const ProductsShowcase = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -21,7 +21,7 @@ const ProductsShowcase = () => {
 
         <div className="guaybo-content">
           <h2 className="guaybo-title">APRENDE CON YARIFE</h2>
-          <p className="guaybo-sub">
+          <p className="guaybo-sub ">
             LIBERA TU POTENCIAL <span className="accent">CREATIVO</span> CON MI <span className="purple-text">CURSO COMPLETO</span> Y <span className="purple-text">EBOOK</span> PARA LLEVAR TUS PRESENTACIONES A OTRO NIVEL
           </p>
 

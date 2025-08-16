@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import icon1 from '../../assets/images/Iconos/Recurso 40.png';
-import icon2 from '../../assets/images/Iconos/Recurso 42.png';
-import icon3 from '../../assets/images/Iconos/Recurso 50.png';
-import icon4 from '../../assets/images/Iconos/Recurso 67.png';
-import icon5 from '../../assets/images/Iconos/Recurso 68.png';
-import icon6 from '../../assets/images/Iconos/Recurso 69.png';
-import icon7 from '../../assets/images/Iconos/Recurso 70.png';
-import icon8 from '../../assets/images/Iconos/Recurso 71.png';
-import icon9 from '../../assets/images/Iconos/Recurso 72.png';
-import logoYarife from '../../assets/images/Logos/Recurso 38.png';
+import icon1 from '../../assets/images/icons/Recurso 40.png';
+import icon2 from '../../assets/images/icons/Recurso 42.png';
+import icon3 from '../../assets/images/icons/Recurso 50.png';
+import icon4 from '../../assets/images/icons/Recurso 67.png';
+import icon5 from '../../assets/images/icons/Recurso 68.png';
+import icon6 from '../../assets/images/icons/Recurso 69.png';
+import icon7 from '../../assets/images/icons/Recurso 70.png';
+import icon8 from '../../assets/images/icons/Recurso 71.png';
+import icon9 from '../../assets/images/icons/Recurso 72.png';
+import logoYarife from '../../assets/images/logos/logo-colored.png';
 import './FAQ.css';
 
 const FAQ = () => {

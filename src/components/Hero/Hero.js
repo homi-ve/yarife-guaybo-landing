@@ -1,7 +1,7 @@
 import React from 'react';
-import yarifeImage from '../../assets/images/Fotos comprimidas Yarife/Primera-foto.webp';
-import iconBulb from '../../assets/images/Iconos/Recurso 40.png';
-import iconArrow from '../../assets/images/Iconos/Recurso 46.png';
+import iconBulb from '../../assets/images/icons/Recurso 40.png';
+import iconArrow from '../../assets/images/icons/Recurso 46.png';
+import yarifeImage from '../../assets/images/yarife/1.webp';
 import './Hero.css';
 
 const Hero = () => {
@@ -32,7 +32,7 @@ const Hero = () => {
           
           <div className='cta-container'>
           <button onClick={openWhatsApp} className="cta-button">
-            QUIERO UNA ASESORÍA
+            Quiero una asesoría
           </button>
           <span className='cta-comment'>Cupos limitados cada mes</span>
           </div>

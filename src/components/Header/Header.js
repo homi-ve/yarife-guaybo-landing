@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Header.css';
 
-import menuIcon from '../../assets/images/Iconos/menu_24dp_F2AD00_FILL0_wght400_GRAD0_opsz24.png';
-import logo from '../../assets/images/Logos/Recurso 38.png';
+import menuIcon from '../../assets/images/icons/menu_24dp_F2AD00_FILL0_wght400_GRAD0_opsz24.png';
+import logo from '../../assets/images/logos/logo-colored.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
