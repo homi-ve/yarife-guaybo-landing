@@ -2,7 +2,6 @@
   "name": "yarife-landing-page",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://homi-ve.github.io/yarife-guaybo-landing",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

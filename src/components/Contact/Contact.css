@@ -141,9 +141,17 @@
 } 
 
 @media (max-width: 576px) {
- 
-  .tag {
+  .tag-container img {
     display: none;
+  }
+
+  .contact-container__left {
+    align-items: center;
+    flex-direction: column-reverse;
+    padding-top: 30px;
+  }
+  .tag-container {
+    margin-bottom: 0;
   }
   .contact-container{
     grid-template-columns: 1fr;

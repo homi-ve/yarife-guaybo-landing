@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logoYarife from '../../assets/images/brand-logos/logo-colored.png';
 import icon1 from '../../assets/images/icons/Recurso 40.png';
 import icon2 from '../../assets/images/icons/Recurso 42.png';
 import icon3 from '../../assets/images/icons/Recurso 50.png';
@@ -8,7 +9,6 @@ import icon6 from '../../assets/images/icons/Recurso 69.png';
 import icon7 from '../../assets/images/icons/Recurso 70.png';
 import icon8 from '../../assets/images/icons/Recurso 71.png';
 import icon9 from '../../assets/images/icons/Recurso 72.png';
-import logoYarife from '../../assets/images/logos/logo-colored.png';
 import './FAQ.css';
 
 const FAQ = () => {

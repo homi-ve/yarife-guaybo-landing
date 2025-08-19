@@ -5,7 +5,7 @@ import decor1 from '../../assets/images/icons/Recurso 40.png';
 import decor2 from '../../assets/images/icons/Recurso 42.png';
 import decor3 from '../../assets/images/icons/Recurso 50.png';
 
-import logoRecurso36 from '../../assets/images/logos/isotype.png';
+import logoRecurso36 from '../../assets/images/brand-logos/isotype.png';
 
 const Testimonials = () => {
   const testimonials = {

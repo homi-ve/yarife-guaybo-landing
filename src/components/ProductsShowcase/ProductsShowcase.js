@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
 import './ProductsShowcase.css';
 
+import ebookImage from '../../assets/images/brand-logos/ebook_yarife.webp';
 import decor1 from '../../assets/images/icons/Recurso 67.png';
 import decor2 from '../../assets/images/icons/Recurso 68.png';
-import ebookImage from '../../assets/images/logos/ebook_yarife.webp';
 
 const ProductsShowcase = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
-  const handleVideoClick = () => {
+  const handleVideoClick = (e) => {
     setIsVideoPlaying(true);
+    e.stopPropagation();
   };
 
   return (
@@ -30,7 +31,7 @@ const ProductsShowcase = () => {
             <img src={decor1} alt="" className="guaybo-decor guaybo-decor--top-right" />
             <img src={decor1} alt="" className="guaybo-decor guaybo-decor--bottom-left" />
             {/* Card del curso */}
-            <div className="guaybo-card course">
+            <div className="guaybo-card course" onClick={() => window.open('https://www.guaybo.com/yarifepower/crea-una-presentacion-con-canva-desde-cero-1', '_blank')}>
               <div className="card-header">
                 <div className="card-thumbnail">
                   {!isVideoPlaying ? (
@@ -82,7 +83,7 @@ const ProductsShowcase = () => {
             </div>
 
             {/* Card del ebook */}
-            <div className="guaybo-card ebook">
+            <div className="guaybo-card ebook" onClick={() => window.open('https://www.guaybo.com/yarifepower/guia-crea-tu-primer-producto-digital', '_blank')}>
               <div className="card-header">
                 <div className="card-thumbnail">
                   <img 
