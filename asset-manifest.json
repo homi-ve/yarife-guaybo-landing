@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/yarife-guaybo-landing/static/css/main.2e8dd78b.css",
-    "main.js": "/yarife-guaybo-landing/static/js/main.f352d222.js",
+    "main.js": "/yarife-guaybo-landing/static/js/main.a5f2c791.js",
+    "static/media/2.webp": "/yarife-guaybo-landing/static/media/2.f468a2be26322198ccbb.webp",
     "static/media/3.webp": "/yarife-guaybo-landing/static/media/3.3cb9d5d492177374ccb9.webp",
-    "static/media/2.webp": "/yarife-guaybo-landing/static/media/2.f4adbe5f794f83c69b39.webp",
     "static/media/1.webp": "/yarife-guaybo-landing/static/media/1.de4f53540361dc790463.webp",
     "static/media/person.png": "/yarife-guaybo-landing/static/media/person.34970ea80c29624a9587.png",
     "static/media/ebook_yarife.webp": "/yarife-guaybo-landing/static/media/ebook_yarife.15c594ed9dd2370b4659.webp",
@@ -16,10 +16,10 @@
     "static/media/Recurso 72.png": "/yarife-guaybo-landing/static/media/Recurso 72.28ef0062ad2850125321.png",
     "index.html": "/yarife-guaybo-landing/index.html",
     "main.2e8dd78b.css.map": "/yarife-guaybo-landing/static/css/main.2e8dd78b.css.map",
-    "main.f352d222.js.map": "/yarife-guaybo-landing/static/js/main.f352d222.js.map"
+    "main.a5f2c791.js.map": "/yarife-guaybo-landing/static/js/main.a5f2c791.js.map"
   },
   "entrypoints": [
     "static/css/main.2e8dd78b.css",
-    "static/js/main.f352d222.js"
+    "static/js/main.a5f2c791.js"
   ]
 }
