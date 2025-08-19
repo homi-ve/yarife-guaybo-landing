@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Header.css';
 
 import menuIcon from '../../assets/images/icons/menu_24dp_F2AD00_FILL0_wght400_GRAD0_opsz24.png';
-import logo from '../../assets/images/logos/logo-colored.png';
+import logo from '../../assets/images/logos/logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

@@ -69,7 +69,7 @@ const Services = () => {
             </div>
             <div className="service-item--content soft">
               <p><strong>Asesorías creativas para desbloquear tu idea</strong></p>
-              <p><strong>Convertir ideas enplanes de acción y MVP</strong></p>
+              <p><strong>Convertir ideas en planes de acción y productos y servicios</strong></p>
             </div>
             </div>
             <div className='service-item service-item--4'>

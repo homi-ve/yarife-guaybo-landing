@@ -13,14 +13,26 @@ const Footer = () => {
     {
       id: 2,
       icon: 'fab fa-linkedin',
-      link: '#',
+      link: 'https://www.linkedin.com/in/yarifevallenilla/',
       label: 'LinkedIn'
     },
     {
       id: 3,
       icon: 'fab fa-youtube',
-      link: '#',
+      link: 'https://www.youtube.com/@yarifepower',
       label: 'YouTube'
+    },
+    {
+      id: 4,
+      icon: 'fab fa-whatsapp',
+      link: 'https://wa.me/584242429016',
+      label: 'WhatsApp'
+    },
+    {
+      id: 5,
+      icon: 'fab fa-tiktok',
+      link: 'https://www.tiktok.com/@yarifepower',
+      label: 'TikTok'
     }
   ];
 
